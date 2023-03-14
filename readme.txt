@@ -1,3 +1,10 @@
+There are other 3 files:
+- "Survey Attitudes and Social Pressure.pdf" this is a pdf version of the survey
+- "anonymized_data.csv" includes the row data from the survey. Each item is identified by a code. The codes are explained below and in the data dictionary
+- "data_dictionary.csv" is a dictionary mapping the item codes to the full text of the item
+
+ITEMS EXPLANATION
+
 For each topic (e.g. "pens") there are 6 different items in the dataframe. They are listed in the following dictionary:
 
     questions = {"pens":["Q17", "Q18","Q211","Q215","FL_174_DO_PencilsAgree", "FL_174_DO_PencilsDisagree"],
